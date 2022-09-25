@@ -1,0 +1,17 @@
+.scroll-top-button{
+    position: fixed;
+    bottom: 2rem;
+    right: 0rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    background-color: #1d4a35;
+    border-radius: 25px 0 0 25px;
+    cursor: pointer;
+}
+
+.scroll-to-top-icon{
+    color: #fff;
+}

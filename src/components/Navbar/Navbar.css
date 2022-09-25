@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 4rem;
+    background-color: #fff;
+    box-shadow: 1px 0px 5px 1px rgba(0,0,0,0.1);
+    gap: 6rem;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+.link , .icon-or-headline{
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.link-active{
+    color: #8dc231;
+}
+
+.link:hover{
+    color: #8dc231;
+}

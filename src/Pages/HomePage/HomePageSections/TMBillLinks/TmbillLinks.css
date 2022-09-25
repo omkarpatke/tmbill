@@ -1,0 +1,119 @@
+.tmbill-links-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    min-height: 100vh;
+    max-height: auto;
+    width: 100%;
+    padding: 4rem 5rem;
+    gap: 3rem;
+}
+
+.contact{
+    display: flex;
+    gap: 1rem;
+}
+
+.mail , .phone{
+    color: #fff;
+    cursor: pointer;
+}
+
+.social-contacts{
+    display: flex;
+    gap: 1rem;
+}
+
+.social-contact-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50%;
+    background-color: #f5f4f7;
+    color: #8dc231;
+    cursor: pointer;
+}
+
+.subnav-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #8dc231;
+    height: 2.4rem;
+    padding: 0 14px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.tmbill-info , .tmbill-links , .tmbill-products , .tmbill-office{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 15rem;
+    text-align: initial;
+    line-height: 1.7;
+}
+
+
+.tmbill-info img{
+    height: 80px;
+    margin-left: -3rem;
+    margin-bottom: 2rem;
+}
+
+.tmbill-links h6 , .tmbill-products h6 , .tmbill-office h6{
+    color: #8dc231;
+    font-size: 1.2rem;
+}
+
+.red-span{
+    font-size: 11px;
+    color: #fff;
+    background-color: red;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.green-span{
+    font-size: 11px;
+    color: #fff;
+    background-color: green;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.purple-span{
+    font-size: 11px;
+    color: #fff;
+    background-color: purple;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+
+p{
+    font-size: 15px;
+}
+
+.tmbill-links{
+    line-height: 1.9;
+}
+
+.tmbill-link , .address{
+    font-size: 15px;
+}
+
+.tmbill-link:hover , .address:hover{
+    color: #8dc231;
+    cursor: pointer;
+}
+
+.logo-address{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}

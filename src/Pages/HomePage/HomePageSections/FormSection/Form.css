@@ -1,0 +1,75 @@
+.form-container{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    max-height: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 2rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 1px 0px 5px 2px rgb(0 0 0 / 10%);
+}
+
+.form input{
+    width: 25rem;
+    height: 2.8rem;
+    margin: .5rem;
+    padding-left: 1rem;
+    border:1px solid #e4e8ed;
+}
+
+.form-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.form img{
+    height: 300px;
+}
+
+.submit-button{
+    height: 3rem;
+    padding: 10px 1.2rem;
+    background-color: #1d4a35;
+    color: #fff;
+}
+
+.tmbill-call-container{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background: linear-gradient(140deg, rgba(65, 58, 164, .9) 0, rgba(65, 58, 164, .9) 25%, rgba(6, 181, 144, .9) 100%);
+}
+
+.tmbill-call-container img{
+    height: 300px;
+}
+
+.call-select , .call-input{
+    height: 3rem;
+    padding-left: 1rem;
+    background-color: #fff;
+}
+
+.call-input{
+    width: 20rem;
+}
+
+.submit-button{
+    border-radius: 5px;
+}
+
+.heading{
+    color: #fff;
+}

@@ -1,0 +1,95 @@
+.restaurant-opening-container{
+    padding: 3rem 5rem;
+    border-bottom: 1px solid #e4e8ed;
+}
+
+.img-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.img img{
+    height: 465px;
+    width: 540px;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: initial;
+    line-height: 1.9;
+}
+
+.content h2{
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.content p{
+    color: gray;
+}
+
+.cards{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem;
+    background-color: #fff;
+    min-width: 16rem;
+    box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 40%)
+}
+
+.companies-imgs{
+    display: flex;
+    gap: 10px;
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 3rem;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+.service-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 14rem;
+    height: 13rem;
+    box-shadow: 0px 0px 1px 0px rgb(0 0 0 / 40%)
+}
+
+.service-card:hover{
+    transition: .4s all ease-in-out;
+    box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 40%)
+}
+
+.service-card img{
+    height: 101px;
+    width: 101px;
+}
+
+h6{
+    font-weight: 600;
+}

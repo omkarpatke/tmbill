@@ -1,0 +1,82 @@
+.client-section-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 90vh;
+    max-height: auto;
+    padding: 2rem 0;
+}
+
+.our-clients{
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 0;
+    margin: 1rem;
+}
+
+.our-clients h2{
+    font-weight: 600;
+}
+
+.clients{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.clients img{
+    height: 100px;
+    width: 100px;
+    border-radius: 3px;
+}
+
+.clients img:hover{
+    transition: 1s all ease;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.company-highlights{
+    background-image: url("https://tmbill.com/img/tmbill_Company_highlights.jpg");
+    height: 17rem;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.highlight-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+}
+
+.highlight-card img{
+    height: 150px;
+    width: 150px;
+}
+
+.highlight-text{
+    text-align: initial;
+}
+
+.highlight-text h2{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.highlight-text p , .highlight-card h2{
+    color: #fff;
+    font-weight: 600;
+}
+
+.highlight-card p{
+    color: #fff;
+}
+

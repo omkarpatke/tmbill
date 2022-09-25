@@ -1,0 +1,19 @@
+.where-we-reach-container{
+    min-height: 80vh;
+    max-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 4rem 10rem;
+}
+
+.reach-heading{
+   text-align: initial;
+   margin-bottom: 1rem;
+}
+
+.countries{
+    text-align: justify;
+    color: #8dc231;
+}
